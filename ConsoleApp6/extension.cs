@@ -15,7 +15,7 @@ namespace ConsoleApp6
             return array;
 
         }
-        public static T[] Print<T>(this T[] item)
+        public static T Print<T>(this T item)
         {
             Console.WriteLine(item);
             return item;
